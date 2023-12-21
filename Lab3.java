@@ -230,11 +230,6 @@ public class Lab3 extends JFrame implements ActionListener {
 			find();
 
 		}
-		
-//implement this method
-//you may add additional methods as needed
-//do not change any of the code that I have written
-//other than to activate buttons for extra credit
 	}
 	void first() {
 		try {
