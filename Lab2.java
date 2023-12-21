@@ -38,16 +38,7 @@ public class Lab2 extends JFrame implements ActionListener {
 		else
 			return null;
 	}
-	
-	/************************************************************************/
-	/* Put your implementation of the processProgram method here.           */
-	/* Use the getFileName method to allow the user to select a program.    */
-	/* Then simulate the execution of that program.                         */
-	/* You may add any other methods that you think are appropriate.        */
-	/* However, you should not change anything in the code that I have      */
-	/* written.                                                             */
-	/************************************************************************/
-	
+		
 	void processProgram() {
 		String fileName = getFileName();
 		ArrayList<String> code = new ArrayList<String>();
