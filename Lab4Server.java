@@ -1,11 +1,3 @@
-/*	Program:		 Lab 4
- *	
- * 	Student Name: 	 Robert Hannaford and Chris Musselman
- *	Semester: 		 Spring 2023
- *	Class Section: 	 COSC 20203
- *	Instructor: 	 Dr. Rinewalt
- * 
- */
 import java.awt.event.*;
 import java.util.*;
 import java.net.*;
