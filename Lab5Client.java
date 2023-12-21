@@ -147,8 +147,6 @@ public class Lab5Client extends JFrame implements ActionListener {
 
 // ========================================================================
 	
-// Do not change anything above this line
-// Two global variables have been defined here and you will need to add more
 	final static String server = "127.0.0.1";
 	final static int port = 25413;
 	Socket socket = null;
@@ -158,7 +156,6 @@ public class Lab5Client extends JFrame implements ActionListener {
 	String children;
 
 	
-// Then implement the following methods
 
 // The following method connects to the ShapeCalcultorServer
 	void connectToServer() {
