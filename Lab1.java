@@ -103,13 +103,7 @@ public class Lab1 extends JFrame implements ActionListener {
 		}
 		return ans;
 	}
-	
-/************************************************************************/
-/* Put your implementation of the encode, decodeBin, and decodeHex      */
-/* methods here. You may add any other methods that you think are       */
-/* appropriate. However, you MUST NOT change anything in the code       */
-/* that I have written.                                                 */
-/************************************************************************/
+// ENCODE ASSEMBLY INTO BINARY / HEXADECIMAL
 	void encode() {
 	String instruct = assemblerInstruction.getText();
 	int  machine = 0;
@@ -257,6 +251,7 @@ public class Lab1 extends JFrame implements ActionListener {
 		binaryInstruction.setText(displayIntAsBinary(machine));
 	}
 	}
+// DECODE BINARY 
 	void decodeBin() {
 		String getBin = binaryInstruction.getText().trim();
 		boolean error=false;
@@ -358,6 +353,7 @@ public class Lab1 extends JFrame implements ActionListener {
 			assemblerInstruction.setText("");
 		}
 	}
+// DECODE HEXADECIMAL INTO ASSEMBLY
 	void decodeHex() {
 		String getHex = hexInstruction.getText().trim();
 		boolean error=false;
